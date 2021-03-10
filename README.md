@@ -8,6 +8,6 @@ We are developing a web application in which users have to input images of their
 
 #### Team Members
 
-- Ashutosh Thakur
-- Yash Wandhare
-- Saksham Gupta
+- Ashutosh Thakur [GitHub](https://github.com/ashutosh1401)
+- Yash Wandhare [GitHub](https://github.com/Yash7818)
+- Saksham Gupta [GitHub](https://github.com/theksg)
