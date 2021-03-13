@@ -5,6 +5,8 @@ import bodyParser from "body-parser";
 import config from "./config/config";
 import userRoute from "./routes/userRoute";
 import expertRoute from "./routes/expertroute";
+import cropRoute from "./routes/croproute";
+import requestRoute from "./routes/requestroute";
 import Cors from "cors";
 import socket from "socket.io";
 import http from "http";
@@ -30,6 +32,8 @@ app.use(Cors());
 
 app.use("/api/users", userRoute);
 app.use("/api/expert", expertRoute);
+app.use("/api/crop", cropRoute);
+app.use("/api/request", requestRoute);
 
 const server = http.createServer(app);
 const io = socket(server);
