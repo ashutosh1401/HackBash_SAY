@@ -8,10 +8,10 @@ We are developing a web application in which users have to input images of their
 
 #### TECH STACK
 
-Frontend: React JS
-Backend: Node JS , Express JS
-Database: MongoDB
-ML model: Tensorflow JS, Keras, CNN
+- Frontend: React JS
+- Backend: Node JS , Express JS
+- Database: MongoDB
+- ML model: Tensorflow JS, Keras, CNN
 
 #### Team Members
 
