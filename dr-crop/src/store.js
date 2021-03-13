@@ -7,6 +7,7 @@ import {
   userUpdateReducer,
   userGoogleSigninReducer,
 } from "./reducers/userReducer";
+import { cropSaveReducer } from "./reducers/cropReducer";
 
 
 const userInfo = Cookie.getJSON("userInfo") || null;
@@ -18,6 +19,7 @@ const reducer = combineReducers({
   userRegister: userRegisterReducer,
   userGoogleSignin: userGoogleSigninReducer,
   userUpdate: userUpdateReducer,
+  cropSave:cropSaveReducer
 });
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENTION_COMPOSE__ || compose;
 const store = createStore(
