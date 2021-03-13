@@ -22,7 +22,7 @@ mongoose
     useCreateIndex: true,
   })
   .then(() => console.log("Mongoose Connected"))
-  .catch((error) => console.log(error.reason));
+  .catch((error) => console.log(error));
 
 const app = express();
 app.use(bodyParser.json());
